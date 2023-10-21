@@ -1,0 +1,126 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "is_published": true,
+    "name": "для дома",
+    "slug": "dfgdsdf123_fssdfsd-sdf23",
+    "weight": 100
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "is_published": true,
+    "name": "для улицы",
+    "slug": "sdfs234-234dsd23-cq4c32",
+    "weight": 266
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "is_published": true,
+    "name": "для активного отдыха",
+    "slug": "234wf43535-3f534cx",
+    "weight": 1
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "is_published": true,
+    "name": "для рукоделия",
+    "slug": "sf4f6f3d34-nb4v353c-bvc4323",
+    "weight": 5
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "is_published": true,
+    "name": "настольные игры",
+    "slug": "d2ss4346g68h65g4f5-7b65v432",
+    "weight": 20
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 1,
+  "fields": {
+    "is_published": true,
+    "name": "большой",
+    "slug": "роскошно"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 2,
+  "fields": {
+    "is_published": true,
+    "name": "маленький",
+    "slug": "роскошно"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 3,
+  "fields": {
+    "is_published": true,
+    "name": "средний",
+    "slug": "превосходно"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 4,
+  "fields": {
+    "is_published": true,
+    "name": "чуть_больше_среднего",
+    "slug": "превосходно"
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 5,
+  "fields": {
+    "is_published": true,
+    "name": "чуть_меньше_среднего",
+    "slug": "превосходно"
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 1,
+  "fields": {
+    "is_published": true,
+    "name": "товар1",
+    "category": 2,
+    "text": "роскошно и превосходно",
+    "tags": [
+      3,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.item",
+  "pk": 2,
+  "fields": {
+    "is_published": true,
+    "name": "товар2",
+    "category": 4,
+    "text": "роскошно и превосходно",
+    "tags": [
+      2,
+      3
+    ]
+  }
+}
+]
